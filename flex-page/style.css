@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+}
+.nav-head-cls {
+    background-color: #0c8367;
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
+.nav-head-cls h1,p{
+    padding: 2px;
+}
+.nav-bar {
+    display: flex;
+    background-color: #333;
+}
+.nav-bar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .nav-bar a:hover {
+    color: black;
+    text-decoration: blink;
+    background-color: #ddd;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.coll-half {
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+.abt-img p {
+    background-color: gray;
+    margin: 0px 0px 10px 0px;
+    padding: 15px 0 15px 0;
+}

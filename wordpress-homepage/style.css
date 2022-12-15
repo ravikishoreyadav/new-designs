@@ -1,60 +1,72 @@
-body{
+body {
     background-color: #F0F0F1;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+
 .wpcontener {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  .wp-logo img {
+}
+
+.wp-logo img {
     margin: auto;
     display: block;
     width: 130px;
 }
+
 .wp-log-cls {
     background-color: white;
     border: 1px solid #C3C4C7;
     padding: 8px;
 }
+
 .wp-log-cls .log-form-cls {
     margin: auto;
     display: block;
     padding: 0 24px 0 24px;
 }
+
 label {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     color: #3c434a;
 }
-input[type="text"], [type="password"] {
+
+input[type="text"],
+[type="password"] {
     height: 42px;
     width: 337px;
     border-radius: 5px;
     border: 1px solid rgba(12, 8, 8, 0.167);
     font-size: 28px;
 }
+
 input[type="text"] {
     margin-bottom: 20px;
 }
-input:focus-visible{
+
+input:focus-visible {
     border-color: #2271b1;
     box-shadow: 0 0 0 1px #2271b1;
     outline: 2px solid transparent;
     outline: none;
     background-color: #E8F0FE;
 }
+
 .login-cls {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 36px 0 30px 0;
+    transition: .5s;
 }
+
 input[type="submit"] {
     background: #2271B1;
     padding: 10px 20px 10px 20px;
@@ -65,36 +77,40 @@ input[type="submit"] {
     border-radius: 5px;
     transition: .5s;
 }
-input[type="submit"]:hover{
-    background-color:#0c4472 ;
+
+input[type="submit"]:hover {
+    background-color: #0c4472;
 }
+
 .wp-logo {
     bottom: 9px;
     position: relative;
 }
+
 .intpt-cls {
     margin: 26px 0 0 0;
 }
+
 .form-group {
     display: block;
     margin-bottom: 15px;
-  }
-  
-  .form-group input {
+}
+
+.form-group input {
     padding: 0;
     height: initial;
     width: initial;
     margin-bottom: 0;
     display: none;
     cursor: pointer;
-  }
-  
-  .form-group label {
+}
+
+.form-group label {
     position: relative;
     cursor: pointer;
-  }
-  
-  .form-group label:before {
+}
+
+.form-group label:before {
     content: '';
     -webkit-appearance: none;
     background-color: transparent;
@@ -108,8 +124,8 @@ input[type="submit"]:hover{
     margin-right: 5px;
     border-radius: 6px;
 }
-  
-  .form-group input:checked + label:after {
+
+.form-group input:checked+label:after {
     content: '';
     display: block;
     position: absolute;
@@ -120,4 +136,15 @@ input[type="submit"]:hover{
     border: solid #3582C4;
     border-width: 0 2px 2px 0;
     transform: rotate(45deg);
-  }
+}
+
+.lost-pswd-cls a {
+    display: block;
+    padding: 20px 0 0 15px;
+    color: #1f1f58;
+    text-decoration: none;
+}
+
+.lost-pswd-cls a:hover {
+    text-decoration: underline;
+}
