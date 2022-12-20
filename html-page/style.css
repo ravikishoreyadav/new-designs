@@ -85,6 +85,6 @@ h4.font-weight-bold {
     font-size: smaller;
     margin: 0;
 }
-.logo-header img {
-    max-width: 82px;
+.bg-yellow {
+    background: yellow;
 }
